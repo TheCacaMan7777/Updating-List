@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="UL.css">
+</head>
+<body>
+
+        <section1>
+                
+    <header><b>Passenger travel form</b> <br> (* is required)</header>
+
+<br>
+    
+ 
+        
+        <label for="fname">First Name :</label>
+            <input type="text" id="fname"name="fname" placeholder="First Name">
+
+<br>
+
+        <label for="lname">Last Name :</label>
+            <input type="text" id="lname"name="lname" placeholder="Last Name">
+
+<br>
+        
+        <label for="title">Date of Birth</label>
+        <input type="text" name="date" placeholder="dd/mm/yyyy">
+
+<br>
+
+        
+        <label for="title">Departure City*</label>
+        <input type="text" name="date" placeholder="City, state (Phoenix, AZ)">
+
+<br>
+
+
+        <label for="title">Arrival City*</label>
+        <input type="text" name="date" placeholder="City, state (Atlanta, GA)">
+
+<br>
+
+
+        <label for="title">Date Leaving*</label>
+        <input type="text" name="date" placeholder="dd/mm/yyyy">
+
+<br>
+
+
+        <label for="title">Date Returning*</label>
+        <input type="text" name="date" placeholder="dd/mm/yyyy">
+
+<br>
+
+
+        <label for="Bags">How many bags? : </label>
+        <input type="text" id="Bags"name="Bags" placeholder="#">
+
+<br>
+
+
+        
+                <p>What kind of meal would you like? <br>
+                <input type="radio" id="Dope3" value="Chicken"/>
+                <label for="Dope3">Chicken</label>
+                <input type="radio" id="Dope2" value="Fish"/>
+                <label for = "Dope2">Fish</label>
+                <input type="radio" id="Dope1" value="Vegan"/>
+                <label for = "Dope1">Vegetarian</label>
+                </p>
+
+        <p>Oder your extras (only 10$ each!)
+
+        <br>
+        <input type="checkbox" id="Dope2" value="Extra Leg Room?"/>
+        <label for = "Dope2">Extra Leg Room?</label>
+        <br>
+        
+        <input type="checkbox" id="Dope4" value="Window Seat?"/>
+        <label for = "Dope4">Window Seat?</label>
+        <br>
+        
+        <input type="checkbox" id="Dope3" value="Head Phones?"/>
+        <label for = "Dope3">Head Phones?          </label>
+        <br>
+
+        <input type="checkbox" id="Dope1" value="Second Serving of Meal?"/>
+        <label for = "Dope1">Second Serving of Meal?</label>
+        </p>
+
+        
+        <p>Are you over 18?<br>
+        <input type="checkbox" id="Dope1" value="Yes"/>
+        <label for = "Dope1">Yes</label>
+        <input type="checkbox" id="Dope1" value="No"/>
+        <label for = "Dope1">No</label>
+
+        </p>
+
+
+        <button class="button">Submit Passenger Info</button>
+        
+</section1>
+
+
+
+<section2>
+        <p style="margin-left: 10px;">Search Bar:</p>
+        <input id="search" style="margin-left: 10px;" type="text" placeholder="First & Last Name">
+          
+        <button id="print" onclick="search()">Search</button>
+
+        
+        
+          
+            <p style="margin-left: 10px;">Sort By:</p>
+            <select style="margin-left: 10px;" name="users" id="dropDown">
+                <option value="id">ID</option>
+                <option value="firstName">First Name</option>
+                <option value="lastName">Last Name</option>
+            </select>
+            <button onclick="print()" id="print">Print All Names</button>
+        
+            <br>
+            <br>
+            
+            <label for="container2">First & Last Name</label>
+            <div class="container2">
+            <input id="inputField2" type="text" placeholder="Username">
+            
+            </div>
+
+
+
+            <br>
+
+        
+        <label for="container">UserName</label>
+                <div class="container">
+                <input id="inputField" type="text" placeholder="Username">
+                <div class="to-dos" id="toDoContainer"></div>
+        <button id="addToDo">Set</button>
+        </div>
+
+        <br>
+
+        <label for="Container1">Password</label>
+                <div class="container1">
+                <input id="inputField1" type="text" placeholder="Password">
+                <div class="to-dos1" id="toDoContainer1"></div>
+        <button id="addToDo1">Set</button>
+            </div>
+
+           
+      
+
+        
+         
+            <br>
+
+            <label for="DoB">Date of Birth</label>
+            <input type="date" id="outDoB" placeholder="MM/DD/YYYY">
+            
+            <br>
+
+            <label for="bags" class="bags" style="margin-left: 10px">Bags</label>
+            <input type="number" class="bags" name="bags" id="outbags" placeholder="#">
+        
+            <br>
+        
+            <label for="departing">Departing*</label>
+            <input style="margin-left: 10px" type="text" id="outdeparting" placeholder="City, State (Phoenix, AZ)">
+        
+            <br>
+
+            <label for="arriving">Arriving*</label>
+            <input style="margin-left: 10px" type="text" id="outarriving" placeholder="City, State (Atlanta, GA)">
+        
+            <br>
+
+            <label for="leaveDate">Leaving Date</label>
+            <input type="date" name="leaveDate" id="outleaveDate" placeholder="MM/DD/YYYY">
+
+            <br>
+
+    
+            <label for="returnDate" style="margin-left: 10px">Returning Date</label>
+            <input type="date" name="returnDate" id="outreturnDate" placeholder="MM/DD/YYYY">
+        
+    
+
+            <p>Meal:</p>
+            <input id="outextras" type="text" placeholder=" Chicken/ Fish/ Vegetarian">
+            
+            <p style="margin-left: 20px; margin-right: 10px;">Age:</p>
+            <input style="width: 150px;" id="outmeal" type="text" placeholder="#">
+        
+
+            <p>Extras:</p>
+            <input id="outextras" type="text">
+            <p style="margin-left: 20px;">Cost: $300</p>
+
+           
+
+            
+           
+           
+        </div>
+
+        <div class="print">
+        <button id="addToDo2">Submit Changes</button>
+        <button onclick="print()">Print Out List</button>
+        <div class="to-dos2" id="toDoContainer2"></div>
+        </div>
+        
+        </div>
+
+      
+       
+        <div class="print" id="printSpace">
+    </div>
+ 
+   
+ 
+</section2>
+
+
+
+<script src="UL.js"></script> 
+
+    
+</body>
+</html>

@@ -1,0 +1,187 @@
+html{
+    background-color: lightskyblue;
+}
+
+
+header{
+    font-size: large;
+}
+
+body{
+    text-align: initial;
+ 
+}
+
+li{
+    text-align: initial;
+}
+
+.button{
+    background-color: lightskyblue;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+Section1 {
+    background-color: lightgray;
+    flex: 278px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 125px;
+    margin-left: 10px;
+}
+
+
+Section2 {
+    background-color: lightgray;
+    flex: 278px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 125px;
+    margin-left: 10px;
+}
+
+button{
+    background-color: lightskyblue;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+  
+}
+
+#inputField {
+
+}
+
+#AddToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 8;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container1{
+  
+}
+
+#inputField1 {
+
+}
+
+#AddToDo1 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 8;
+}
+
+.to-dos1 {
+    margin-top: 25px;
+}
+
+.paragraph-styling1 {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container2{
+  
+}
+
+#inputField2 {
+
+}
+
+#AddToDo2 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 8;
+}
+
+.to-dos2 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.paragraph-styling2 {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
